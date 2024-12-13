@@ -29,6 +29,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Camera
 PRODUCT_PACKAGES += \
     libpiex_shim
+# DSP Volume Synchronizer
+PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer
 
 # Display Config
 PRODUCT_COPY_FILES += \
